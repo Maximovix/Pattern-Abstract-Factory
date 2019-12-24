@@ -9,8 +9,8 @@ public class Application {
         this.laptop = factory.createLaptop();
     }
 
-    public void showElementsOnSite(){
-        phone.showElementsOnSite();
-        laptop.showElementsOnSite();
+    public void getElementsOnSite(){
+        System.out.println(phone.getElementsOnSite());
+        System.out.println(laptop.getElementsOnSite());
     }
 }
